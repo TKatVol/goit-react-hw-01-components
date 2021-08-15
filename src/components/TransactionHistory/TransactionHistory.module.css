@@ -1,0 +1,32 @@
+.table {
+  width: 320px;
+  margin: 0 auto;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+
+.table th {
+  font-weight: bold;
+  padding: 10px;
+  background-color: #0349fc;
+  border: 1px solid #dddddd;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.type {
+  text-transform: capitalize;
+}
+
+.table td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #cccccc;
+}

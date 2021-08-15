@@ -1,0 +1,29 @@
+.card {
+  width: 320px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.179;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+/* const color = ['#6c7f00', '#fb7f00', '#fb7f93', '#fb0193', '#fb0107']; */
