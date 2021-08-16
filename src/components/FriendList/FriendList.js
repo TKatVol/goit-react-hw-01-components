@@ -9,7 +9,6 @@ function FriendList({ friends }) {
                 return (
                     <FriendListItem
                         key={friend.id}
-                        id={friend.id}
                         avatar={friend.avatar}
                         name={friend.name}
                         isOnline={friend.isOnline}
@@ -21,8 +20,7 @@ function FriendList({ friends }) {
 }
 
 FriendList.propTypes = {
-    friends: PropTypes.arrayOf(
-        PropTypes.shape(PropTypes.any.isRequired)),
+    friends: PropTypes.array,
 }
     
 export default FriendList;
