@@ -17,13 +17,12 @@
 .list {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 .item {
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 10px;
+  color: #fff;
 }
-
-/* const color = ['#6c7f00', '#fb7f00', '#fb7f93', '#fb0193', '#fb0107']; */
